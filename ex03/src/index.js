@@ -10,7 +10,7 @@ function myFunction(myObj) {
   var fruitValue = myFood["fruit"];
   var drinkValue = myFood["drink"];
 
-  return { vegetableValue, fruitValue, drinkValue };
+  return myObj;
 }
 
 // Only change code above this line
