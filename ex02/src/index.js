@@ -6,10 +6,10 @@ var myClothes = {
 };
 
 function myFunction(myObj) {
-  var hatValue = myClothes.hat;
-  var shirtValue = myClothes.shirt;
-  var shoesValue = myClothes.shoes;
-  return myObj;
+  var hatValue = myObj.hat;
+  var shirtValue = myObj.shirt;
+  var shoesValue = myObj.shoes;
+  return { hatValue, shirtValue, shoesValue };
 }
 //Only change code above this line
 console.log(myFunction(myClothes));
