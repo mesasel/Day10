@@ -1,4 +1,4 @@
-function myFunction(email) {
+function getUsername(email) {
   var username = "";
 
   // Only change code below this line
@@ -16,6 +16,18 @@ function myFunction(email) {
   // Only change code above this line
   return username;
 }
-
-console.log(myFunction("user2@mail.com"));
-module.exports = myFunction;
+getUsername("user1@mail.com");
+getUsername("user2@mail.com");
+getUsername("user3@mail.com");
+getUsername("user4@mail.com");
+getUsername("user5@mail.com");
+getUsername("user6@mail.com");
+getUsername("");
+console.log(getUsername("user1@mail.com"));
+console.log(getUsername("user2@mail.com"));
+console.log(getUsername("user3@mail.com"));
+console.log(getUsername("user4@mail.com"));
+console.log(getUsername("user5@mail.com"));
+console.log(getUsername("user6@mail.com"));
+console.log(getUsername(""));
+module.exports = getUsername;
